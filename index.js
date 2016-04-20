@@ -8,6 +8,11 @@ export default class BlaBla extends Component {
         test: React.PropTypes.number
     }
 
+    static defaultProps = {
+        bla: true,
+        test: 999
+    }
+
     render() {
         const {bla, test} = this.props;
         return (
