@@ -16,7 +16,9 @@ export default class BlaBla extends Component {
     render() {
         const {bla, test} = this.props;
         return (
-            <div>{bla ? test : DEFAULT_TEST}</div>
+            <div>
+                {bla ? test : DEFAULT_TEST}
+            </div>
         );
     }
 }
