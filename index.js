@@ -27,9 +27,11 @@ export default class BlaBla extends Component {
 
     render() {
         const {bla, test} = this.props;
+        const {wow, wowwow} = this.state;
         return (
             <div>
                 {bla ? test : DEFAULT_TEST}
+                {wow ? <span>{'test'}</span> : null}
             </div>
         );
     }
