@@ -13,6 +13,18 @@ export default class BlaBla extends Component {
         test: 999
     }
 
+    state = {
+        wow: true,
+        wowwow: false
+    }
+
+    componentWillMount() {
+        this.setState({
+            wow: test > 500,
+            wowwow: bla && test > 900
+        });
+    }
+
     render() {
         const {bla, test} = this.props;
         return (
