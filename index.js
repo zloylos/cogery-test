@@ -15,8 +15,9 @@ export default class BlaBla extends Component {
 
     state = {
         wow: true,
-        wowwow: false
-    }
+        wowwow: true,
+        wowowwww: true
+    };
 
     componentWillMount() {
         this.setState({
