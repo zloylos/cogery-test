@@ -7,19 +7,6 @@ export default class BlaBla extends Component {
         bla: React.PropTypes.bool,
         test: React.PropTypes.number
     }
-// ======================
-    static defaultProps = {
-        bla: true,
-        test: 999
-    }
-
-    state = {
-        wow: true,
-        wowwow: true,
-        wowowwww: true
-    };
-
-// ======================
     componentWillMount() {
         this.setState({
             wow: test > 500,
