@@ -19,6 +19,7 @@ export default class BlaBla extends Component {
     }
 
     render() {
+        console.log('test');
         const {bla, test} = this.props;
         const {wow, wowwow} = this.state;
         return (
